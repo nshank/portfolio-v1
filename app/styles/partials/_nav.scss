@@ -1,0 +1,33 @@
+nav {
+	float:left;
+}
+
+nav ul {
+  list-style: none;
+  margin-left:60px;
+}
+
+nav ul li {
+  display:inline;
+}
+
+nav a {
+	display: inline-block;
+	padding:10px 20px;
+	text-decoration: none;
+	color:rgba(95,106,125, .8);
+	text-transform: uppercase;
+	font-weight:$font-weight-light;
+	font-size: $font-size-small;
+	transition-property: color;
+  transition-duration: .5s;
+  transition-timing-function: linear;
+}
+
+nav a:hover {
+	color:rgba(44,50,59, 1);
+}
+
+nav a.current {
+	border-bottom:4px solid rgba(46,59,78, 1);
+}

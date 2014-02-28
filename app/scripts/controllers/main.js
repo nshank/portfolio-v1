@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('portfolioApp')
+angular.module('shankPortfolioApp')
   .controller('MainCtrl', function ($scope) {
     $scope.awesomeThings = [
       'HTML5 Boilerplate',
