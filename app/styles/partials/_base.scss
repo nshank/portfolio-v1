@@ -47,14 +47,6 @@ ul.bullet-list {
   padding: 0;
 }
 
-.container {
-  margin: 20px auto;
-  padding:60px;
-  max-width: 1200px;
-  width: 100%;
-  background:rgba(255,255,255, 1);
-}
-
 .bc-container {
   margin:0 auto;
   width:700px ;
@@ -69,6 +61,8 @@ ul.bullet-list {
 .page-title.about, .page-title.cv, .page-title.ws {
   border-bottom:1px solid rgba(224,224,224,1);
   padding-bottom: 40px;
+  max-width: 1060px;
+  margin:0 auto;
 }
 
 .page-title span {
@@ -105,7 +99,7 @@ ul.bullet-list {
 
 .long-text {
   margin:20px auto;
-  width: 700px;
+  max-width: 700px;
   line-height: 1.5;
   letter-spacing: .01rem;
 }
