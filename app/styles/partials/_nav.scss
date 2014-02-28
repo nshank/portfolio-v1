@@ -31,3 +31,24 @@ nav a:hover {
 nav a.current {
 	border-bottom:4px solid rgba(46,59,78, 1);
 }
+
+@media handheld, only screen and (max-width: 767px) {
+
+	.name-mark {
+		display:none;
+	}
+
+  nav a {  
+  	display: inline-block;
+		padding:5px 10px;
+		text-decoration: none;
+		color:rgba(95,106,125, .8);
+		text-transform: uppercase;
+		font-weight:$font-weight-light;
+		font-size: $font-size-small;
+		transition-property: color;
+  	transition-duration: .5s;
+  	transition-timing-function: linear;  
+   } 
+
+}
