@@ -13,7 +13,7 @@ angular.module('basecampApp', [
         templateUrl: 'views/basecamp/main.html',
         // controller: 'MainCtrl'
       })
-      .when('/about', {
+      .when('/work', {
         templateUrl: 'views/basecamp/work.html',
         // controller: 'MainCtrl'
       })
