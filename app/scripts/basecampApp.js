@@ -1,37 +1,28 @@
 'use strict';
 
-angular.module('basecampApp', [
-  'ngCookies',
-  'ngResource',
-  'ngSanitize',
-  'ngRoute'
-])
+angular.module('basecampApp', ['ngCookies','ngResource','ngSanitize','ngRoute'])
+  .config(function ($routeProvider) {
 
-  .config(function($routeProvider) {
+    // $locationProvider.html5Mode(true);
+
     $routeProvider
       .when('/', {
         templateUrl: 'views/basecamp/main.html',
-        // controller: 'MainCtrl'
       })
       .when('/work', {
         templateUrl: 'views/basecamp/work.html',
-        // controller: 'MainCtrl'
       })
       .when('/cv', {
         templateUrl: 'views/basecamp/cv.html',
-        // controller: 'MainCtrl'
       })
       .when('/hermes', {
         templateUrl: 'views/basecamp/hermes.html',
-        // controller: 'MainCtrl'
       })
       .when('/splash', {
         templateUrl: 'views/basecamp/splash.html',
-        // controller: 'MainCtrl'
       })
       .when('/cme', {
         templateUrl: 'views/basecamp/cme.html',
-        // controller: 'MainCtrl'
       })
       .otherwise({
         redirectTo: 'views/basecamp/main.html'
