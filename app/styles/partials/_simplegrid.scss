@@ -30,7 +30,8 @@ body {
 	padding:40px 0;
 	width: 100%;
 	max-width: 1140px;
-	min-width: 755px;
+	/*min-width: 755px;*/
+	min-width: 320px;
 	overflow: hidden;
 	background:rgba(255,255,255, 1);
 }
@@ -78,7 +79,7 @@ body {
 		margin-left: 0px;
 		margin-right: 0px;
 		padding-left: 0px;
-		padding-right: 0px;
+		padding-right: 20px;
 	}
 
 	[class*='col-'] {
