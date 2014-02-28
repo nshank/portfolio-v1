@@ -1,0 +1,1 @@
+"use strict";angular.module("shankPortfolioApp",["ngCookies","ngResource","ngSanitize","ngRoute"]);
