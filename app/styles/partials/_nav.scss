@@ -34,9 +34,28 @@ nav a.current {
 
 @media handheld, only screen and (max-width: 767px) {
 
+	header {
+		height: 50px;
+	}
+
+	.header-inner  {
+		height: 50px;
+	}
+
 	.name-mark {
 		display:none;
 	}
+
+	nav {
+	text-align: center;
+}
+
+	nav ul {
+  list-style: none;
+  display:block;
+  width: 320px;
+  margin:0 auto;
+}
 
   nav a {  
   	display: inline-block;
