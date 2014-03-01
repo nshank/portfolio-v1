@@ -28,8 +28,9 @@ nav a:hover {
 	color:rgba(44,50,59, 1);
 }
 
-nav a.current {
-	border-bottom:4px solid rgba(46,59,78, 1);
+nav a.active {
+	font-weight:$font-weight-regular;
+	border-bottom:2px solid rgba(46,59,78, 1);
 }
 
 @media handheld, only screen and (max-width: 767px) {
@@ -46,28 +47,12 @@ nav a.current {
 		display:none;
 	}
 
-	nav {
-	text-align: center;
-}
-
 	nav ul {
-  list-style: none;
-  display:block;
   width: 320px;
-  margin:0 auto;
 }
 
   nav a {  
-  	display: inline-block;
-		padding:5px 10px;
-		text-decoration: none;
-		color:rgba(95,106,125, .8);
-		text-transform: uppercase;
-		font-weight:$font-weight-light;
-		font-size: $font-size-small;
-		transition-property: color;
-  	transition-duration: .5s;
-  	transition-timing-function: linear;  
+		padding:5px 10px; 
    } 
 
 }
