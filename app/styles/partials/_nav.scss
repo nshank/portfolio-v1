@@ -44,15 +44,19 @@ nav a.active {
 	}
 
 	.name-mark {
-		padding:4px 0;
+		display:none;
+	}
+
+	.name-mark-mobile {
+		display:block;
 		float:left;
-		font-size:12px;
+		font-size:18px;
 		text-transform: uppercase;
 		font-weight: 700;
 		color:#999;
 	}
 
-	.name-mark > span {
+	.name-mark-mobile > span {
 		font-weight: 700;
 		color:rgba(46,59,78, 1);
 	}
