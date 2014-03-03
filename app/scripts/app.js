@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('basecampApp', ['ngCookies','ngResource','ngSanitize','ngRoute'])
+angular.module('basecampApp', ['ngCookies','ngResource','ngSanitize','ngRoute', 'angulartics', 'angulartics.google.analytics'])
   .config(function ($routeProvider) {
 
     // $locationProvider.html5Mode(true);
