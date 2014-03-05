@@ -7,24 +7,24 @@ angular.module('basecampApp', ['ngCookies','ngResource','ngSanitize','ngRoute'])
 
     $routeProvider
       .when('/', {
-        templateUrl: 'views/basecamp/main.html',
+        templateUrl: 'views/work/main.html',
       })
       .when('/work', {
-        templateUrl: 'views/basecamp/work.html',
+        templateUrl: 'views/work/work.html',
       })
       .when('/cv', {
-        templateUrl: 'views/basecamp/cv.html',
+        templateUrl: 'views/work/cv.html',
       })
       .when('/hermes', {
-        templateUrl: 'views/basecamp/hermes.html',
+        templateUrl: 'views/work/hermes.html',
       })
       .when('/splash', {
-        templateUrl: 'views/basecamp/splash.html',
+        templateUrl: 'views/work/splash.html',
       })
       .when('/cme', {
-        templateUrl: 'views/basecamp/cme.html',
+        templateUrl: 'views/work/cme.html',
       })
       .otherwise({
-        redirectTo: 'views/basecamp/main.html'
+        redirectTo: 'views/work/main.html'
       });
   });
