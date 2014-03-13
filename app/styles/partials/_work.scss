@@ -71,10 +71,19 @@
   border:1px solid #ccc;
 }
 
+.hz-line {
+  // border-top:1px solid #ccc;
+  border-bottom:1px solid #ccc;
+  margin:10px auto;
+  padding:10px;
+  width:200px;
+}
+
 .work-text {
   max-width: 800px;
   margin:0 auto;
   font-size: $font-size-regular;
+  line-height:1.5;
 }
 
 .paging {
