@@ -1,16 +1,19 @@
 body {
 	font-size: 100%;
-	font-family: $font-family-sans;
+	font-family: $font-family-serif;
+	// font-family: $font-family-sans;
 	// color:rgba(82,82,82,1);
 	color:rgba(60,60,60,1);
 }
 
 h1 {
+	font-family: $font-family-sans;
 	font-size: $font-size-xx-large;
 	color:rgba(95,106,125, 1);
 }
 
 h2 {
+	font-family: $font-family-sans;
 	font-size: $font-size-x-large;
 	color:rgba(95,106,125, 1);
 }

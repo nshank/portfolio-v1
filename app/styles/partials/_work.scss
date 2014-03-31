@@ -72,7 +72,7 @@
 }
 
 .hz-line {
-  // border-top:1px solid #ccc;
+  /*border-top:1px solid #ccc;*/
   border-bottom:1px solid #ccc;
   margin:10px auto;
   padding:10px;
@@ -82,8 +82,9 @@
 .work-text {
   max-width: 800px;
   margin:0 auto;
-  font-size: $font-size-regular;
+  font-size: $font-size-large;
   line-height:1.5;
+  letter-spacing: .01rem;
 }
 
 .paging {
