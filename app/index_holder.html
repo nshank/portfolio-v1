@@ -18,41 +18,21 @@
     <link rel="stylesheet" href="styles/main.css">
     <!-- endbuild -->
   </head>
-  <body ng-app="basecampApp">
+  <body>
     <!--[if lt IE 7]>
       <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
 
     <!-- Add your site or application content here -->
-    <header>
-      <div class="header-inner">
-      <a href="#/">
-        <div class="name-mark">Nicholas<span>Shank</span></div>
-        <div class="name-mark-mobile">N<span>S</span></div>
-      </a>
-        <nav>
-          <ul>
-            <!-- <li><a href="#/">Home</a></li> -->
-            <li><a href="#/">about</a></li>
-            <li><a href="#/work">work samples</a></li>
-            <li><a href="#/cv">cv</a></li>
-          </ul>
-        </nav>
-        <div class="social">
+    <section class="holder">
+      <div class="name-box">
+        <h2>Nick Shank</h2>
+        <div class="title">User Experience Designer</div>
+        <div class="social-holder">
           <a href="http://twitter.com/nickshank" class="social-label social-tw"><i class="fa fa-twitter"></i></a>
           <a href="http://www.linkedin.com/in/nicholasshank/" class="social-label social-ln"><i class="fa fa-linkedin"></i></a>
-        </div>
-        </div>
-      </header>
-
-    <div class="grid grid-pad">
-      <!-- <div ng-view class="[autoscroll="true"]"></div> -->
-      <div ng-view autoscroll="true"></div>
-    </div>
-
-    <footer>
-    &nbsp;
-    </footer>
+        </div> 
+    </section>
 
     <!-- Google Analytics: change UA-XXXXX-X to be your site's ID -->
      <script>
@@ -82,6 +62,7 @@
 
         <!-- build:js({.tmp,app}) scripts/scripts.js -->
         <script src="scripts/app.js"></script>
+        <script src="scripts/controllers/main.js"></script>
         <!-- endbuild -->
 </body>
 </html>
